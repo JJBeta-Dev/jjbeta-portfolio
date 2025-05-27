@@ -4,9 +4,7 @@
     <!-- Metadatos básicos del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio de JJBeta - Desarrollador web Front End en formación.">
     <title>▷ JJBeta - Front End Software Engineer</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Enlace al archivo CSS para los estilos -->
     <link rel="stylesheet" href="style.css">
     <!-- Enlace a las tipografias en Google Fonts-->
@@ -19,9 +17,11 @@
 </head>
 <body>
     
+    <body>
+    
     <!-- Sección del encabezado -->
     <header>
-        <nav>
+        <nav class="scrolled">
             <!-- Logo del sitio -->
             <a href="index.html" class="logo">JJBeta</a>
             <!-- Menú de navegación -->
@@ -47,42 +47,30 @@
     </div>
 
     <main>
-        <!-- Sección de bienvenida -->
-        <section class="home" id="home">
-            <h3 class="special">Bienvenido</h3>
-            <div class="home-text">
-                <!-- Presentación del nombre -->
-                <span>Soy</span> <h1>JJBeta</h1>
-                <h2>pero mi nombre real es <b>Jerónimo Jiménez Betancur</b></h2>
+
+        <!-- Sección de certificados -->
+        <section class="certificates">
+            <h3>Certificados</h3>
+            <div class="certificates-text">
+                <div class="certificate-1">
+                    <!-- Lista de certificados -->
+                    <p id="1">HTML5 & CSS3<i class="fa-regular fa-file-pdf"></i></p>
+                    <p id="2">Web Layout with CSS<i class="fa-regular fa-file-pdf"></i></p>
+                    <p id="3">Basic Aspects of UX Design<i class="fa-regular fa-file-pdf"></i></p>
+                    <p id="4">Professional JavaScript<i class="fa-regular fa-file-pdf"></i></p>
+                    <p id="5">TypeScript<i class="fa-regular fa-file-pdf"></i></p>
+                </div>
             </div>
         </section>
-        
-        <!-- Sección sobre mí -->
-        <section class="about" id="about">
-            <h3>Sobre mí</h3>
-            <div class="about-text">
-                <!-- Descripción personal -->
-                <p>Soy un <b>desarrollador web</b> en formación, nacido en <b>Colombia</b>. 
-                Desde que descubrí el mundo del desarrollo web, no he dejado de aprender 
-                y de retarme a diario. 
-                Me entusiasma construir cosas útiles, explorar nuevas tecnologías y 
-                buscar siempre una forma más eficiente de hacer las cosas.</p>
-            <!-- Enlaces a redes sociales -->
-            <div class="social-media">
-                <a href="https://github.com/JJBeta-Dev" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
-            </div>
-            </div>
-        </section>
+
     </main>
 
-    <!-- Pie de página -->
+
+<!-- Pie de página -->
     <footer>
         <!-- Espacio para contenido del footer -->
         <p>&copy; 2025 JJBeta - Hecho con 💜 en Colombia</p>
     </footer>
-
-    
-      
 
 </body>
 </html>
